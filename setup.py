@@ -21,6 +21,8 @@ setup(
     author_email='jcfrt@free.fr',
     url='https://github.com/jcfrt/tmdb_query',
     license=license,
+    keywords=['tmdb'],
+    test_suite='test',
     packages=find_packages(exclude=('test',)),
     python_requires='>=3.8, <4',
     install_requires=['requests'],

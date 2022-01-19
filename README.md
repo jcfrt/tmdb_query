@@ -21,20 +21,31 @@ Usage: tmdb_query "Actor Name 1" "Actor Name 2"
 
 ## Example:
 ```
-> python3 tmdb_query.py "Keanu Reeves" "Lawrence Fishburne" "Carrie-Anne Moss"
-Found 11 movies in which Carrie-Anne Moss and Keanu Reeves and Laurence Fishburne have played (sorted by release date):
+> python3 tmdb_query.py "Keanu Reeves" "Lawrence Fishburne"
+Found 13 movies in which Keanu Reeves and Laurence Fishburne have played (sorted by release date):
 The Matrix
-The Matrix Reloaded Revisited
 Making 'The Matrix'
 The Matrix Revisited
-The Matrix Recalibrated
-The Matrix Reloaded: Pre-Load
-The Matrix Revolutions Revisited
-The Matrix Resurrections
 The Matrix Reloaded
+MTV Reloaded
+The Matrix Reloaded: Pre-Load
 The Matrix Revolutions
-The Matrix Reloaded: Car Chase
+The Matrix Revolutions Revisited
+The Matrix Reloaded Revisited
+A Man's Story
+John Wick: Chapter 2
+John Wick: Chapter 3 - Parabellum
+John Wick: Chapter 4
 ```
+
+## Running tests:
+
+Using `pytest` is recommended. It should be run while the current working directory is ./tmdb_query.
+
+# TODO
+
+* Tests: Cache API response as fixtures to avoid testing over the wire, or use mocks.
+* Package and setup.
 
 # Acknowledgement
 
