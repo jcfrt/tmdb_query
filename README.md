@@ -21,7 +21,7 @@ Usage: tmdb_query "Actor Name 1" "Actor Name 2"
 
 ## Example:
 ```
-> python3 tmdb_query.py "Keanu Reeves" "Lawrence Fishburne"
+> python3 tmdb_query.py "Keanu Reeves" "Laurence Fishburne"
 Found 13 movies in which Keanu Reeves and Laurence Fishburne have played (sorted by release date):
 The Matrix
 Making 'The Matrix'
